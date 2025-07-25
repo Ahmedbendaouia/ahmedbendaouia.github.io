@@ -50,3 +50,21 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.image-container img {
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.bio {
+    flex: 1;
+    min-width: 300px;
+}
