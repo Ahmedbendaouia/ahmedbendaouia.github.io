@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Georgia', serif;
     background-color: #fdfdfd;
@@ -8,47 +9,9 @@ body {
 }
 
 .container {
-    max-width: 750px;
-    margin: 60px auto;
+    max-width: 1000px;
+    margin: 40px auto;
     padding: 0 20px;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.3em;
-    color: #1a1a1a;
-}
-
-.subtitle {
-    font-size: 1.2em;
-    color: #444;
-    margin-bottom: 1.5em;
-}
-
-h2 {
-    margin-top: 1.8em;
-    color: #333;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 0.2em;
-}
-
-ul {
-    list-style-type: disc;
-    padding-left: 25px;
-}
-
-ul.social li {
-    list-style: none;
-    margin: 0.4em 0;
-}
-
-a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .profile {
@@ -67,4 +30,54 @@ a:hover {
 .bio {
     flex: 1;
     min-width: 300px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+    color: #1a1a1a;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 1.5em;
+}
+
+.section {
+    margin-top: 2.5em;
+}
+
+.section h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.2em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.pub-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pub-list li {
+    margin-bottom: 1.3em;
+    font-size: 0.95em;
+}
+
+.pub-list li b {
+    color: #222;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
