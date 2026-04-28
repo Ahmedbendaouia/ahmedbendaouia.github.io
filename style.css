@@ -21,8 +21,16 @@ body {
     gap: 30px;
 }
 
+.image-container {
+    flex: 0 0 auto;
+    max-width: 220px;
+    width: 100%;
+}
+
 .image-container img {
-    max-width: 250px;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
