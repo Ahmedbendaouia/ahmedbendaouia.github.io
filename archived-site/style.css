@@ -89,6 +89,17 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.media-embed {
+    margin: 1.2em 0;
+}
+
+.media-embed iframe {
+    display: block;
+    max-width: 100%;
+    border: 0;
+}
+
 .highlighted-image {
     text-align: center;
     margin: 30px 0;
